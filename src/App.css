@@ -71,23 +71,20 @@ h1:before {
 }
 
 .wordText {
+    color: #e91e63;
     font-size: 42px;
     font-family: "Mehr Nastaliq Web", sans-serif;
 }
 
 .wordMeaning {
     font-size: 24px;
-    font-family: "Google Sans", sans-serif;
     font-weight: 100;
 }
 
 .quoteTextHolder {
     padding: 20px 10px;
     padding-bottom: 1px;
-    box-shadow: 0px 0px 10px 0px #a2a2a2;
 }
-
-
 
 .misra {
     font-family: "Lora", sans-serif;
@@ -102,7 +99,13 @@ h1:before {
     font-size: 14px;
 }
 
-.links{
+.links {
     margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.links a {
+    color: #dc0087;
+    font-weight: bold;
 }
 

@@ -67,9 +67,13 @@ class App extends Component {
             data = JSON.parse(data);
         }
 
+        let ghazalText = "";
+
+
         return (
             <div className="App">
                 <div className="imageHolder">
+                    <h3> Word of the Day - rekhta.org </h3>
                     <h3 className="wordText">{data.word_roman_urdu} - {data.word_nastaliq_urdu}</h3>
                     <h4 className="wordMeaning">
                         <strong> Meaning:</strong> {data.word_meaning}
@@ -96,8 +100,8 @@ class App extends Component {
                     </div>
 
                     <div className="links">
-                        <a href={data.ghazal_name_link}>{data.ghazal_name}</a>
-                        <a href={data.ghazal_author_link}>{data.ghazal_author}</a>
+                        Ghazal: <a href={data.ghazal_name_link}>{data.ghazal_name}</a> <br/><br/>
+                        Author: <a href={data.ghazal_author_link}>{data.ghazal_author}</a>
                     </div>
                 </div>
 

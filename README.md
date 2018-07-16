@@ -37,4 +37,4 @@ Everytime you run an npm build, Chrome will automatically reload the extension f
 
 ## Current ScreenShot
 
-![v0.0.1](https://raw.githubusercontent.com/hassaanaliw/seekhlai-extension/master/screens/v0.0.1.png)
+![v0.0.1](https://raw.githubusercontent.com/hassaanaliw/seekhlai-extension/master/screens/v0.0.2.png)
